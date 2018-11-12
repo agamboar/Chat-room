@@ -1,6 +1,6 @@
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread   #permite multioperaciones en el codigo, mediante la creacion de hilos
-import tkinter
+import tkinter #permite la creacion de la interfaz para el chat
 
 
 HOST = input('Ingrese el host...')
