@@ -6,7 +6,7 @@ import tkinter #permite la creacion de la interfaz para el chat
 HOST = input('Ingrese el host...')
 PORT = input('Ingrese el puerto...')
 if not PORT:
-    PORT = 42424
+    PORT = 42424   #numero random
 else:
     PORT = int(PORT)
 BUFSIZ = 1024
