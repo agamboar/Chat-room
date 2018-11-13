@@ -32,7 +32,7 @@ def conf_cliente(cliente):
 
 def broadcast(mensaje, prefijo=""):
     for sock in clientes:
-        sock.send(bytes(prefijo, "utf8"))
+        sock.send(bytes(prefijo, "utf8")+mensaje)
 
 clientes = {}
 direcciones = {}
